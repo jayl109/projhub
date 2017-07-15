@@ -19,7 +19,23 @@ public class Main {
         switch (cmd) {
             case "init":
                 // init
-                System.out.println("Command is 'init' ");
+                // calls some init function that makes folders
+                System.out.println("Command is 'init'");
+                break;
+            case "add":
+                System.out.println("Command is 'add'");
+                break;
+            case "commit":
+                System.out.println("Command is 'commit'");
+                break;
+            case "pull":
+                System.out.println("Command is 'pull'");
+                break;
+            case "push":
+                System.out.println("Command is 'push'");
+                break;
+            case "clone":
+                System.out.println("Command is 'clone'");
                 break;
             default:
                 // Command doesn't exist
