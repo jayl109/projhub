@@ -12,9 +12,9 @@ public class Main {
     }
 
     private static void parseArgs(String[] args) {
-        String cmd = args.length >= 1 ? args[0] : null;
-        String cmdarg1 = args.length >= 2 ? args[1] : null;
-        String cmdarg2 = args.length >= 3 ? args[2] : null;
+        String cmd = (args.length >= 1) ? args[0] : null;
+        String cmdarg1 = (args.length >= 2) ? args[1] : null;
+        String cmdarg2 = (args.length >= 3) ? args[2] : null;
 
         switch (cmd) {
             case "init":
