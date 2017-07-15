@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab37dffb-7a13-428a-92c9-7463dc7db152" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/version.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/versionList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-    </list>
+    <list default="true" id="ab37dffb-7a13-428a-92c9-7463dc7db152" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="versionList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="versionList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/versionList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -43,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="version.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/version.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -410,18 +403,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/versionList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
