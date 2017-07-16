@@ -2,6 +2,8 @@ package com.company;
 
 public class Main {
 
+    projHub projhub = new projHub();
+
     public static void main(String[] args) {
         if (args.length <= 0) {
             // Error
@@ -21,6 +23,7 @@ public class Main {
                 // init
                 // calls some init function that makes folders
                 System.out.println("Command is 'init'");
+                projHub.init();
                 break;
             case "add":
                 System.out.println("Command is 'add'");

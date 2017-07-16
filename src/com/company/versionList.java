@@ -1,4 +1,4 @@
-/**
+package com.company; /**
  * Created by Jason on 7/15/17.
  */
 import java.util.LinkedList;
