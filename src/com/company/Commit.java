@@ -16,6 +16,9 @@ public class Commit implements Serializable {
     private final String sha;
     private final String parent;
     private final String message;
+
+
+
     private Date commitDate = new Date();
 
     /* Mapping of filename to sha1 of blob */
@@ -49,6 +52,10 @@ public class Commit implements Serializable {
 
     public HashMap<String, String> getContents() {
         return contents;
+    }
+
+    public void setContents(HashMap<String, String> contents) {
+        this.contents = contents;
     }
 
 }
