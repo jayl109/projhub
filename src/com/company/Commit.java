@@ -24,7 +24,7 @@ public class Commit implements Serializable {
     public Commit(String parentId, String msg) {
         parent = parentId;
         message = msg;
-        sha = sha1(parent, message, commitDate.toString())
+        sha = Utils.sha1(parent, message, commitDate.toString());
     }
 
     public String toString() {
@@ -32,7 +32,7 @@ public class Commit implements Serializable {
     }
 
     /* Write to repo */
-    void finalize();
+    // void finalize();
 
 
     public String getParent() {

@@ -1,4 +1,4 @@
-package gitlet;
+package com.company;
 
 //figure out what we can delete
 import java.io.File;
@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.Formatter;
 import java.util.List;
-package com.company;
+
 
 /** Assorted utilities.
  *  @author P. N. Hilfinger
