@@ -19,14 +19,15 @@ public class Commit implements Serializable {
 
 
 
-    private Date commitDate = new Date();
+    private Date commitDate;
 
     /* Mapping of filename to sha1 of blob */
-    private HashMap<String, String> contents = new HashMap<>();
+    private HashMap<String, File> contents = new HashMap<>();
 
     public Commit(String parentId, String msg) {
         parent = parentId;
         message = msg;
+        commitDate = new Date();
         sha = Utils.sha1(parent, message, commitDate.toString());
     }
 
@@ -50,11 +51,11 @@ public class Commit implements Serializable {
         return commitDate;
     }
 
-    public HashMap<String, String> getContents() {
+    public HashMap<String, File> getContents() {
         return contents;
     }
 
-    public void setContents(HashMap<String, String> contents) {
+    public void setContents(HashMap<String, File> contents) {
         this.contents = contents;
     }
 
