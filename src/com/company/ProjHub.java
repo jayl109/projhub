@@ -1,18 +1,18 @@
 package com.company; /**
  * Created by Alex on 7/16/17.
  *
- * projHub object
+ * ProjHub object
  */
 import java.io.*;
 import org.apache.commons.io.*;
 
-public class projHub {
+public class ProjHub {
 
 
-    public projHub() {
-        System.out.println("projHub ctor");
+    public ProjHub() {
+        System.out.println("ProjHub ctor");
     }
-    public void tryload(){
+    public void tryload() {
         System.out.println("not yet implemented tryload");
     }
 

@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        projHub projhub = new projHub();
+        ProjHub projhub = new ProjHub();
         Database database = new Database(null);
         database.serialize();
         System.out.println("tried to serialize");
@@ -46,7 +46,7 @@ public class Main {
                 // init
                 // calls some init function that makes folders
                 System.out.println("Command is 'init'");
-                projHub.init();
+                ProjHub.init();
                 break;
             case "add":
                 System.out.println("Command is 'add'");

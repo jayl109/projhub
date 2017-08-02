@@ -3,7 +3,7 @@ package com.company; /**
  */
 import java.util.LinkedList;
 
-public class versionList {
+public class VersionList {
     public int id;
     private LinkedNode start;
     private LinkedNode head;

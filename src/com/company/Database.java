@@ -5,7 +5,7 @@ import java.io.*;
  */
 
 //where we add byte stream blobs
-public class Database implements Serializable{
+public class Database implements Serializable {
     Commit head;
     Stage stage;
     int test;

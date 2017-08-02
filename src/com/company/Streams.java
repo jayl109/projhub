@@ -1,10 +1,10 @@
 package com.company; /**
  * Created by Jason on 7/15/17.
  */
-// to handle byte streams
+// to handle byte Streams
 import java.io.*;
 import org.apache.commons.io.*;
-public class streams {
+public class Streams {
 
     public static void main(String[] args) throws IOException {
 //        File initialFile = new File("filestreamTest.txt");
