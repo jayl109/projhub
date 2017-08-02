@@ -1,3 +1,5 @@
+package com.company;
+
 import java.io.File;
 import java.io.Serializable;
 import java.util.Collections;
@@ -5,8 +7,6 @@ import java.util.HashSet;
 
 /**
  * Created by Jason on 7/15/17.
- */
-/*
  */
 
 public class Stage implements Serializable {
