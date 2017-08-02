@@ -10,7 +10,7 @@ public class Database implements Serializable {
     Stage stage;
     int test;
     public Database(Commit h){
-        test = 9;
+        test = 10;
         head = h;
         stage = new Stage();
     }
@@ -18,18 +18,29 @@ public class Database implements Serializable {
         return;
     }
     public static Database deserialize(){
-        //if database.ser !exists, return null
-        //else somehow make it
-        return null;
+        Database db=null ;
+        try
+        {
+            FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/database.ser");
+            ObjectInputStream ois = new ObjectInputStream(fis);
+            db = (Database)ois.readObject();
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            e.printStackTrace(); }
+        return db;
     }
+
     public void serialize(){
         try
         {
-            FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir")+"database.ser");
+            System.out.println(System.getProperty("user.dir"));
+            FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir")+"/database.ser");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(this);
             oos.close();
-            fos.close();
+            //fos.close();
         }
         catch (Exception e)
         { e. printStackTrace(); }

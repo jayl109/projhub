@@ -15,6 +15,7 @@ public class Main {
         Database database = new Database(null);
         database.serialize();
         System.out.println("tried to serialize");
+        Database deserial = Database.deserialize();
 
         projhub.tryload();
         System.out.print(PROMPT);
