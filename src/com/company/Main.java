@@ -12,6 +12,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         projHub projhub = new projHub();
+        Database database = new Database(null);
+        database.serialize();
+        System.out.println("tried to serialize");
+
         projhub.tryload();
         System.out.print(PROMPT);
         String line = "";
@@ -21,7 +25,7 @@ public class Main {
             }
 
             if (!line.trim().isEmpty()) {
-                String result = projhub.execute(line);
+                String result = projhub.execute(line, database);
                 if (result.length() > 0) {
                     System.out.println(result);
                 }

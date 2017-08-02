@@ -35,7 +35,7 @@ public class projHub {
             System.out.println("ProjHub directory already exists");
         }
     }
-    public static String execute(String line) throws IOException {
+    public static String execute(String line, Database d) throws IOException {
         if (line.equals("projhub init")) {
             try {
                 init();
@@ -48,6 +48,8 @@ public class projHub {
         else if (line.equals("projhub delete")) {
             delete();
 
+        } else if (line.contains("projhub add")) {
+            d.add(line);
         }
 
         return ("should never get here");
